@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    direction: rtl;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color:#ff7f00;
+    background-size: cover;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: 'Amiri', serif;
+    color: white;
+    margin-left: 20px;
+}
+
+.logo i {
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.nav ul li a i {
+    margin-left: 5px;
+}
+
+.nav ul li a:hover {
+    color: #ffe5cc;
+}
+
+.cta-button {
+    background-color: white;
+    color: #ff7f00;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ffe5cc;
+}
+
+.hero {
+    background: url('d74f32aaac660596611614977fbfe487.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: white;
+    color: #ff7f00;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #ffe5cc;
+}
+
+.features {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    width: 30%;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #ff7f00;
+    margin-bottom: 15px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

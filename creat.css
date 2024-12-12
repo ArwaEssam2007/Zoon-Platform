@@ -1,0 +1,180 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #fff;
+     color: #333;
+     direction: rtl;
+ }
+
+ .container {
+     width: 85%;
+     max-width: 1100px;
+     margin: 0 auto;
+ }
+
+ .header {
+     background-color: #ff7f00;
+     color: white;
+     padding: 15px 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .logo {
+     font-size: 40px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     font-family: 'Amiri', serif;
+ }
+
+ .logo i {
+     margin-right: 10px;
+     font-size: 45px;
+ }
+
+ header {
+     background-color: orange;
+     color: white;
+     padding: 20px 0;
+ }
+
+ .header .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+ }
+
+ .header .logo {
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+ .nav {
+     display: flex;
+     align-items: center;
+     margin-right: 20px; /* مسافة بين قائمة التصفح والحافة اليمنى */
+ }
+
+ .nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+ }
+
+ .nav ul li {
+     margin-left: 40px; /* مسافة بين العناصر في قائمة التصفح */
+ }
+
+ .nav ul li a {
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+     transition: color 0.3s;
+ }
+ .header .nav a:hover {
+     color: #ff7f00;
+ }
+
+
+.cta-button {
+background-color: #ff7f00;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+background-color:#333;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.create-store {
+background-color: #f4f4f4;
+padding: 50px 0;
+}
+
+.create-store-content {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+text-align: center;
+}
+
+.create-store-content h1 {
+font-size: 36px;
+color: #333;
+margin-bottom: 20px;
+}
+
+.create-store-content form {
+background-color: #fff;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+display: inline-block;
+text-align: left;
+width: 100%;
+max-width: 600px;
+}
+
+.create-store-content form .form-group {
+margin-bottom: 20px;
+}
+
+.create-store-content form .form-group label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.create-store-content form .form-group input,
+.create-store-content form .form-group select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.create-store-content form .form-group input[type="submit"] {
+background-color: #ff7f00;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 18px;
+transition: background-color 0.3s ease;
+}
+
+.create-store-content form .form-group input[type="submit"]:hover {
+background-color: #e66d00;
+}
+
+.create-store-content .note {
+margin-top: 20px;
+font-size: 16px;
+color: #666;
+}
+
+.footer {
+     background-color: #333;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     margin-top: 20px;
+ }

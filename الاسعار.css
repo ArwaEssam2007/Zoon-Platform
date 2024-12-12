@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    direction: rtl;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ff7f00;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: 'Amiri', serif;
+}
+
+.logo i {
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.nav ul li a i {
+    margin-left: 5px;
+}
+
+.nav ul li a:hover {
+    color: #ffe5cc;
+}
+
+.hero {
+    background-color: #ff7f00;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.plans {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan h2 {
+    font-size: 24px;
+    color: #ff7f00;
+    margin-bottom: 15px;
+}
+
+.plan p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.plan-price {
+    font-size: 36px;
+    color: #ff7f00;
+    margin-bottom: 20px;
+}
+
+.plan-button {
+    background-color: #ff7f00;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.plan-button:hover {
+    background-color: #e67300;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

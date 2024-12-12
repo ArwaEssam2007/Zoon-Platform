@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    direction: rtl;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ff7f00;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: 'Amiri', serif;
+}
+
+.logo i {
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.nav ul li a i {
+    margin-left: 5px;
+}
+
+.nav ul li a:hover {
+    color: #ffe5cc;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.form-container h1 {
+    font-size: 36px;
+    color: #ff7f00;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="tel"],
+.form-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container button {
+    background-color: #ff7f00;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #e67e22;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
